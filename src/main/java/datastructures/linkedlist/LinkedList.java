@@ -54,7 +54,7 @@ public class LinkedList {
         tail = pre;
         tail.next = null;
         length --;
-        if(length==1)
+        if(length==0)
         {
          head = null;
          tail=null;
