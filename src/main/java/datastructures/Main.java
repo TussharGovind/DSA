@@ -9,25 +9,12 @@ public class Main {
         LinkedList myLinkedList = new LinkedList(4);
         myLinkedList.append(5);
         myLinkedList.append(6);
+        myLinkedList.append(7);
         System.out.println("\nLinked List:");
         myLinkedList.printList();
-        System.out.println("Removing last from list...");
-        myLinkedList.removeLast();
-        System.out.println("After removing from list:");
+        System.out.println("Removing Index  2..."+myLinkedList.remove(3));
+        System.out.println("\nLinked List:");
         myLinkedList.printList();
-        System.out.println("Removing last from list...");
-        myLinkedList.removeLast();
-        System.out.println("After removing from list:");
-        myLinkedList.printList();
-        System.out.println("Removing last from list...");
-        myLinkedList.removeLast();
-        System.out.println("After removing from list:");
-        myLinkedList.printList();
-        System.out.println("Removing last from list...");
-        myLinkedList.removeLast();
-        System.out.println("After removing from list:");
-        myLinkedList.printList();
-
 
 
 
